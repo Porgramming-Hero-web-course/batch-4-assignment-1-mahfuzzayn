@@ -7,8 +7,8 @@ const sumArray = (arr: number[]): number => {
     return sum;
 }
 
-const result1 = sumArray([1, 2, 3, 4, 5]);
+const result = sumArray([1, 2, 3, 4, 5]);
 
-console.log(result1);
+console.log(result); // Output: 15
 
 }
