@@ -6,7 +6,7 @@ const countWordOccurrences = (sentence: string, word: string): number  =>{
     const words: string[] = normalizedSentence.split(' ')
     let occurrences: number = 0;
 
-    words.forEach((str: string)=> {
+    words.forEach((str: string) => {
         if (str === word) {
             occurrences++
         }
